@@ -10,7 +10,23 @@
     margin:60px 3%;
 }
 
+.subscribe
+{
+    width: 100%;
+    text-align: center;
+}
 
+.subscribe input{
+    height: 20px;
+}
+
+.subscribe .submit{
+    border: 3px solid orange;
+    color: white;
+    background-color: tomato;
+    padding:5px;
+    height: 30px;
+}
 /* For mobile device size will be changed of this section */
 
 
