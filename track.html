@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/register.css">
+    <style>
+        .map-generator {
+            max-width: 100%;
+            max-height: 100%;
+            background: none;
+    </style>
+    <title>Track Order</title>
 </head>
 
 <body>
@@ -39,39 +43,22 @@
 
             </div>
         </div>
+        <marquee behavior="" direction="">
+            Live tracking is only available inside Dhaka. Please wait at least 1 hour after you order to see
+            the live tracking
+        </marquee>
     </header>
-    <main>
-        <div class="half-width">
-            <h1 class="welcome">
-                Free Sign Up
-            </h1>
-
-        </div>
-        <div class="half-width">
-            <form action="">
-                <p>
-                    <input type="text" name="user" id="" placeholder="User Name">
-                </p>
-                <p>
-                    <input type="password" name="fullName" id="" placeholder="Select Password">
-                </p>
-                <p>
-                    <input type="password" name="fullName" id="" placeholder="Repeat Password">
-                </p>
-                <p>
-                    <input type="email" name="fullName" id="" placeholder="Email">
-                </p>
-                <p>
-                    <input type="text" name="fullName" id="" placeholder="Full Name">
-                </p>
-                <p>
-                    <input type="number" name="fullName" id="" placeholder="Mobile Number">
-                </p>
-                <p>
-                    <button type="submit">Sign Up</button>
-                </p>
-            </form>
-        </div>
+    <main style="margin-top:50px;">
+        <center>
+            <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
+                <div id="mymap-display" style="height:100%; width:100%;max-width:100%;">
+                    <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                        src="https://www.google.com/maps/embed/v1/search?q=Dhanmondi,+Dhaka,+Bangladesh&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                    </iframe>
+                </div><a class="googlehtml" href="https://www.embed-map.com"
+                    id="enablemap-info">https://www.embed-map.com</a>
+            </div>
+        </center>
     </main>
     <footer>
         <div class="container">
