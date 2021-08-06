@@ -1,0 +1,125 @@
+
+
+/* Slider */
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1DDC9;
+    margin:60px 3%;
+}
+
+
+/* For mobile device size will be changed of this section */
+
+
+
+
+@media screen and (max-width:1000px) {
+    .slider{
+        flex-direction: column;
+        align-items:center;
+        width:75%;
+        margin:0 10%;
+    }
+    .slider p{
+        width:50%;
+    }
+    .slider p{
+        text-align:justify;
+        white-space: wrap;
+    }
+    .slider-text{
+        padding: 10px;
+    }
+}
+
+
+.slider button{
+    background-color: #D84727;
+    font-size: 20px;
+    padding:10px;
+    color: white;
+}
+
+.slider button:hover{
+    transform:scale(1.5);
+}
+/* Main  */
+
+.card-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* Main Categories items go here */
+
+.card-header h3{
+    color: mediumvioletred;
+}
+
+.content{
+    width: 80%;
+    height: 500px;;
+    padding:2%;
+    box-shadow: 10px 10px 10px gray;
+    margin:4% 2%;
+}
+
+.card-header{
+    margin:2%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.card-img img{
+    width:50%;
+    height: 50%;
+    padding: 0% 25%;
+}
+
+.content p{
+    text-align: justify;
+}
+
+.content span{
+    display: block;
+    color: maroon;
+}
+
+.content button{
+    margin-bottom: 2%;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 2%;
+    color: yellow;
+}
+
+/* Effects for categories */
+
+.content img:hover{
+    transform: scale(1.5);
+    overflow:hidden ;
+}
+
+.content button:hover{
+    transform: scale(1.5);
+    box-shadow: 3px 3px 3px lightslategray;
+}
+
+
+/* ------------
+Review Section 
+--------------- */
+
+.review{
+    margin-top:35px;
+}
+
+.review h3{
+    color:mediumvioletred
+}
+
+
+

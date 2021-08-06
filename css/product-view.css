@@ -1,0 +1,17 @@
+/* Main Section */
+
+.product-container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+
+
+/* Media Query for this div */
+
+@media screen and (max-width:900px) {
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

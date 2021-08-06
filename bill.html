@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+      body{
+        background-color:	#ededed;
+        text-align:center;
+        padding-top:45px;
+        font-family:courier;
+      }
+      input[type=button]{
+        border:1px solid magenta;
+        padding:5px;
+        border-radius: 10px;
+      }
+      .header{
+        background-color:	#bababa;
+        padding-top:45px;
+        padding-bottom:45px;
+        text-align:center;
+      }
+      .bill{
+        margin-top:15px;
+      }
+    </style>
+    <meta charset="utf-8">
+    <title>Reciept</title>
+  </head>
+  <body>
+    <div class="header">
+      Here is Your Reciept
+    </div><br>
+    <center>
+      Order Printed On:<script>document.write(Date());</script><br>
+    </center>
+    <div class="bill">
+      Name: Md Hasibur Rahman<br>
+      Email: evanshareef@gmail.com<br>
+      Phone: +8801821484988<br>
+      Address: Singair, Manikganj<br>
+      Status: Paid<br>
+      Product Id: 1144<br>
+      Product Name: Mobile<br>
+      Transaction Id: 55544444ABXCJSJS<br>
+      Order: 26/5/2021
+      User Id: 1147<br><br>
+    </div>
+    <input type="button" name="Print" value="Print Reciept" onclick="window.print()"><br>
+  </body>
+</html>

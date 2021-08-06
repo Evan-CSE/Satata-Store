@@ -1,0 +1,36 @@
+
+/* Main Section */
+
+main{
+    border:1px solid  white;
+    box-shadow: 3px 3px 3px gray;
+    height: 500px;
+    margin:30px 25% 0 25%;
+    width: 50%;
+    display: flex;
+}
+
+
+main div{
+    height: 100%;
+    width: 100%;
+}
+
+
+main>div> h3{
+    color: steelblue;
+    text-align: center;
+}
+
+main>div>form fieldset{
+    width: 50%;
+}
+
+main>div>form input,textarea,button{
+    width:50%;
+}
+
+main>div>form button{
+    background-color: #4A99D3;
+    text-align: center;
+}

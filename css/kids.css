@@ -1,0 +1,57 @@
+
+/* ----------
+main Section 
+------------- */
+
+.card-holder{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 25px;
+}
+
+
+
+.card-items{
+    width: 80%;
+    height: 300px;
+    box-shadow: 7px 7px 7px gray;
+    padding: 2%;
+    /* overflow-y: scroll; */
+}
+
+
+.card-items img{
+    width: 50%;
+    padding:0 25%;
+    height: 30%;
+}
+
+
+.card-items h3{
+    color: rgb(92, 179, 205);
+    font-weight: 900;
+    
+}
+
+.card-items p{
+    text-align: justify;
+}
+
+
+.card-items button{
+    margin-bottom: 2%;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 2%;
+    color: yellow;
+}
+
+/* 
+-----------
+Effects
+----------  */
+
+.card-items img:hover{
+    transform: scale(1.5);
+}
+
